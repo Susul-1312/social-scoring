@@ -13,10 +13,10 @@ const server = require("./lib/server.js");
 app.use(middleware);
 app.use(server);
 
-app.all((req, res) => {
+app.all("*", (req, res) => {
   // in case that the response wasnt ended by the server, notify the user
   res
-    .send(500)
+    .status(500)
     .end("There has been a serverside Error that could not be handled");
 });
 
