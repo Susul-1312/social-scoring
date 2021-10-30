@@ -1,0 +1,33 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.75em;
+  background-color: #222;
+  color: #999;
+  text-align: center;
+}
+
+.userId {
+  color: #fff;
+  font-size: 8em;
+  line-height: 2em;
+}
+
+.score {
+  font-size: 4em;
+  line-height: 2em;
+}
+
+a[href] {
+  color: #1e8ad6;
+}
+
+a[href]:hover {
+  color: #3ba0e6;
+}
