@@ -13,6 +13,7 @@ const server = require("./lib/server.js");
 app.use(middleware);
 app.use(server);
 
+// the server starts listening
 app.listen(PORT, () => {
   console.log("App listening on Port", PORT);
 });
